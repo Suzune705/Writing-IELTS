@@ -1,0 +1,8 @@
+- if you want to a wardrobe , you have to find the right parts and assemble them. It's like an application framework. The application framework offers you various pieces of software you need to build your app. You need to know what features to choose and how to assemble them to achieve the right result 
+
+- The idea of a framework isn't new. Throughout the history of software development, programmers observed they could reuse parts of code they had written in multiple applications. Initially , when not so may applications were implemented , each application was unique and developed domain extended and more and more applications started to be published on the market, it became easier to observe that many of these apps had similar requirements. Let's name a few of them:
+	- Logging error , warning and info messages happen in every app
+	- Most applications use transaction to process data changes. Transactions represent an important mechanism that takes care of data consistency. We will discuss this subject in detail in chapter 13 
+	- Most applications use protection mechanisms against the same common vulnerabilities
+	- Most application use similar mechanisms to  their performance, like caching or data compression 
+	- And the list continues. It turns out that the business logic code implemented in an app is significantly smaller than the wheels and belts that make the engine  of the application ( also often referred to as " the plumbing )
