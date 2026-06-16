@@ -77,3 +77,5 @@ Body 2: Problems?
 - People become more wasteful and lose repair habits.
 Best simple thesis:
 This happens mainly because new products are cheap and repairs are inconvenient, but it can cause environmental damage and encourage a wasteful lifestyle.
+
+
