@@ -1,4 +1,7 @@
+topic : Animal
+
 dilemma : vấn đề nan giải
+
 limblessness : sự không có chi 
 
 grant someone the ability to do sth : trao cho ai đó khả năng làm j đó
