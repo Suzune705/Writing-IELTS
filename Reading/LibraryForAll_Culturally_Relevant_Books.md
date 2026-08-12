@@ -1,3 +1,5 @@
+topic : Books
+
 be made harder : được làm khó hơn (to be made more difficult or challenging)
 
 distant social setting : môi trường xã hội xa lạ (a social environment that is unfamiliar or far removed from one's usual surroundings)
