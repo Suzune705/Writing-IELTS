@@ -51,6 +51,34 @@ support + something : hỗ trợ cái j (to provide assistance, resources, or en
 
 major commercial market : thị trường thương mại lớn (a large and significant market for goods or services)
 
+exclude : loại trừ 
+
+inclusive : bao gồm 
+
+consultation : sự tham khảo ý kiến (the act of seeking advice, guidance, or input from others)
+
+authenticity : tính xác thực (the quality of being genuine, real, or true)
+
+lifelong learnin opportunity : cơ hội học tập suốt đời (the chance or possibility to continue learning and acquiring knowledge throughout one's life)
+
+equitable education : giáo dục công bằng (an educational system that provides fair and equal opportunities for all students, regardless of their background or circumstances)
+
+later vocational learning : học nghề sau này (education or training that prepares individuals for specific careers or trades, typically after completing formal schooling)
+
+uneven : không đồng đều (not uniform or consistent in quality, distribution, or access)
+
+
+obscure : mờ nhạt , không rõ ràng (not well-known, hidden, or difficult to understand)
+
+charitable organization : tổ chức từ thiện (a non-profit organization that provides help or support to those in need)
+
+permanent substitute : thay thế lâu dài (a replacement that is intended to last for a long time or indefinitely)
+
+caregiver : người chăm sóc (someone who provides care and support for another person, often a family member or dependent)
+
+to matter = to be important : quan trọng (to have significance or value)
+
+
 
 
 
