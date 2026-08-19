@@ -1,67 +1,41 @@
-Tôi sẽ gửi LIST TỪ VỰNG IELTS Reading. Hãy tạo bảng 4 cột theo đúng định dạng sau:
+Tôi sẽ gửi LIST TỪ VỰNG IELTS Reading. Hãy chuyển đổi danh sách này thành chuỗi JSON chuẩn hóa để import trực tiếp vào thẻ Flashcard theo đúng cấu trúc bên dưới.
 
-| Vocabulary | English Definition + Vietnamese Meaning | Example | Collocations / Word Patterns + 2 Synonyms |
+QUY TẮC ĐỊNH DẠNG (BẮT BUỘC):
+1. ĐẦU RA: Chỉ xuất ra DUY NHẤT 1 block JSON hợp lệ (Valid JSON). TUYỆT ĐỐI KHÔNG thêm văn bản giải thích.
+2. CÁC TRƯỜNG TRONG JSON KHỚP 100% VỚI FLASHCARD UI:
+   - `term` (Thuật ngữ): Từ/cụm từ tiếng Anh gốc.
+   - `definition` (Định nghĩa): BẮT BUỘC lồng nghĩa tiếng Việt trong ngoặc ở cuối: `<Định nghĩa tiếng Anh>. (<Nghĩa tiếng Việt trong ngoặc đơn>)`.
+   - `pronounce` (Phát âm): Phiên âm IPA chuẩn.
+   - `word_type` (Loại từ): Từ loại tiếng Anh (e.g. "verb phrase", "noun phrase", "phrasal verb", "phrase",...).
+   - `example` (Ví dụ): 1 câu ví dụ tiếng Anh ngữ cảnh chuẩn IELTS.
+   - `synonyms` (Từ đồng nghĩa): Các từ/cụm từ đồng nghĩa BẰNG TIẾNG ANH, phân cách bằng dấu chấm phẩy `;` (e.g. "basic food; dietary staple") ( chỉ 2 từ synonyms). KHÔNG DÙNG TIẾNG VIỆT Ở ĐÂY 
 
-QUY TẮC ĐỊNH DẠNG TỪNG CỘT (RẤT QUAN TRỌNG):
+VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
+{
+  "title": "DAY 01 – TEST 1",
+  "words": [
+    {
+      "term": "staple food",
+      "definition": "A food that is eaten routinely and constitutes a dominant portion of a standard diet (Thực phẩm chính).",
+      "pronounce": "/ˈsteɪpl fuːd/",
+      "word_type": "noun phrase",
+      "example": "Rice is the primary staple food for more than half of the world's population.",
+      "synonyms": "basic food; dietary staple"
+    },
+    {
+      "term": "stay healthier",
+      "definition": "To maintain better physical condition and well-being (Giữ sức khỏe tốt hơn).",
+      "pronounce": "/steɪ ˈhelθiər/",
+      "word_type": "verb phrase",
+      "example": "Eating a balanced diet helps you stay healthier throughout the year.",
+      "synonyms": "maintain health; keep fit; live healthier"
+    }
+  ]
+}
 
-- CỘT 1 (Vocabulary):
-  Giữ nguyên từ/cụm từ tiếng Anh hệt như trong note gốc (phần trước dấu `:`).
-
-- CỘT 2 (English Definition + Vietnamese Meaning):
-  BẮT BUỘC tuân thủ cấu trúc: <Định nghĩa tiếng Anh>. (<Nghĩa tiếng Việt trong ngoặc đơn>)
-  ✔ VÍ DỤ ĐÚNG: To agree with or support a plan or idea (Đồng ý, ủng hộ).
-  ❌ TUYỆT ĐỐI KHÔNG: Đưa từ loại như (verb phrase), (noun phrase), (verb)... vào Cột 2.
-  ❌ TUYỆT ĐỐI KHÔNG: Bỏ sót nghĩa tiếng Việt ở cuối.
-
-- CỘT 3 (Example):
-  1 câu ví dụ tiếng Anh tự nhiên, ngữ cảnh chuẩn IELTS.
-
-- CỘT 4 (Collocations / Word Patterns + 2 Synonyms):
-  Các cụm từ đồng nghĩa / collocations bằng tiếng Anh, phân cách bằng dấu chấm phẩy `;`.
-  ✔ VÍ DỤ: empty the trash; dispose of waste
-
-QUY TẮC XỬ LÝ:
-- Giữ đúng thứ tự tôi gửi, không bỏ sót.
-- Tôi nói "TIẾP TỤC" → Làm tiếp ngay từ từ tiếp theo, không lặp lại từ cũ.
-- Làm hết toàn bộ list mới tính là xong 1 DAY.
-- Cùng Passage = Cùng DAY (không đổi DAY khi tôi nói "TIẾP TỤC").
-- Passage mới = Tăng DAY +1.
-- Không giải thích dài dòng, chỉ trả về bảng kết quả Markdown.
-
-FORMAT TIÊU ĐỀ:
-DAY XX – TEST X
-
-
-do something equally : làm gì đó một cách công bằng (to do something in a fair way)
-
-do most of something : làm phần lớn việc gì đó (to do the majority of a task or activity)
-
-fair share of something : phần công bằng của việc gì đó (a reasonable or equitable portion of a task or responsibility)
-
-to split things : phân chia công việc (to divide tasks or responsibilities among people)
-
-take out the bins : đổ rác (to remove garbage from a home or building)
-
-serious side to something : khía cạnh nghiêm túc của việc gì đó (the important or significant aspect of a task or responsibility)
-
-gender equality : bình đẳng giới (the state of being treated equally regardless of gender)
-
-unpaid work : công việc không được trả lương (work that is done without financial compensation)
-
-scrub the toilet : chà rửa nhà vệ sinh / bồn cầu (to clean a toilet by scrubbing it)
-
-hardly ever do it : hầu như không bao giờ làm việc gì đó (to rarely or almost never do a task or activity)
-
-work alongside someone : làm việc sát cánh / cùng với ai đó (to collaborate or work together with someone on a task or project)
-
-fair division of labor : phân công lao động công bằng (the equitable distribution of tasks and responsibilities among individuals)
-
-to take pressure off someone : giảm áp lực cho ai đó (to relieve someone of stress or responsibility)
-
-pull one's weight : làm tròn, gánh vác trách nhiệm của mình (to contribute one's fair share of effort or work)
-
-nag less : ít càu nhàu, ít phàn nàn (to complain or criticize less frequently)
-
-rest a while : nghỉ ngơi một lúc (to take a short break or pause from work or activity)
-
-stereotypically : vốn cho là, theo định kiến (in a way that conforms to a widely held but oversimplified idea or image of a particular type of person or thing)
+QUY TẮC :
+- Passage mới = Tăng DAY +1 trong tiêu đề "title".
+- Làm đúng và đủ các từ trong danh sách 
+- Thuật ngữ phải theo đúng trong danh sách, không được thay đổi ( trước dấu 2 chấm).
+- Ví dụ phải là câu tiếng Anh chuẩn, có ngữ cảnh rõ ràng với thuật ngữ, phù hợp với IELTS Reading.
+---
