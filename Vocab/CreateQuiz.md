@@ -8,7 +8,7 @@ QUY TẮC ĐỊNH DẠNG (BẮT BUỘC):
    - `pronounce` (Phát âm): Phiên âm IPA chuẩn.
    - `word_type` (Loại từ): Từ loại tiếng Anh (e.g. "verb phrase", "noun phrase", "phrasal verb", "phrase",...).
    - `example` (Ví dụ): 1 câu ví dụ tiếng Anh ngữ cảnh chuẩn IELTS.
-   - `synonyms` (Từ đồng nghĩa): Các từ/cụm từ đồng nghĩa BẰNG TIẾNG ANH, phân cách bằng dấu chấm phẩy `;` (e.g. "basic food; dietary staple") ( chỉ 2 từ synonyms). KHÔNG DÙNG TIẾNG VIỆT Ở ĐÂY 
+   - `synonyms` (Từ đồng nghĩa): Mảng các chuỗi (Array of strings) chứa các từ/cụm từ đồng nghĩa BẰNG TIẾNG ANH (chỉ tối đa 2 từ synonyms) (e.g. `["basic food", "dietary staple"]`). KHÔNG DÙNG TIẾNG VIỆT Ở ĐÂY.
 
 VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
 {
@@ -20,7 +20,7 @@ VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
       "pronounce": "/ˈsteɪpl fuːd/",
       "word_type": "noun phrase",
       "example": "Rice is the primary staple food for more than half of the world's population.",
-      "synonyms": "basic food; dietary staple"
+      "synonyms": ["basic food", "dietary staple"]
     },
     {
       "term": "stay healthier",
@@ -28,7 +28,7 @@ VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
       "pronounce": "/steɪ ˈhelθiər/",
       "word_type": "verb phrase",
       "example": "Eating a balanced diet helps you stay healthier throughout the year.",
-      "synonyms": "maintain health; keep fit; live healthier"
+      "synonyms": ["maintain health", "keep fit"]
     }
   ]
 }
@@ -39,3 +39,5 @@ QUY TẮC :
 - Thuật ngữ phải theo đúng trong danh sách, không được thay đổi ( trước dấu 2 chấm).
 - Ví dụ phải là câu tiếng Anh chuẩn, có ngữ cảnh rõ ràng với thuật ngữ, phù hợp với IELTS Reading.
 ---
+
+
