@@ -1,14 +1,14 @@
-Tôi sẽ gửi LIST TỪ VỰNG IELTS Reading. Hãy chuyển đổi danh sách này thành chuỗi JSON chuẩn hóa để import trực tiếp vào thẻ Flashcard theo đúng cấu trúc bên dưới.
+Tôi sẽ gửi LIST TỪ VỰNG IELTS. Hãy chuyển đổi danh sách này thành chuỗi JSON chuẩn hóa để import trực tiếp vào thẻ Flashcard theo đúng cấu trúc bên dưới.
 
 QUY TẮC ĐỊNH DẠNG (BẮT BUỘC):
-1. ĐẦU RA: Chỉ xuất ra DUY NHẤT 1 block JSON hợp lệ (Valid JSON). TUYỆT ĐỐI KHÔNG thêm văn bản giải thích.
+1. ĐẦU RA: Chỉ xuất ra DUY NHẤT 1 block JSON hợp lệ (Valid JSON). TUYỆT ĐỐI KHÔNG thêm văn bản giải thích ngoài JSON.
 2. CÁC TRƯỜNG TRONG JSON KHỚP 100% VỚI FLASHCARD UI:
-   - `term` (Thuật ngữ): Từ/cụm từ tiếng Anh gốc.
-   - `definition` (Định nghĩa): BẮT BUỘC lồng nghĩa tiếng Việt trong ngoặc ở cuối: `<Định nghĩa tiếng Anh>. (<Nghĩa tiếng Việt trong ngoặc đơn>)`.
-   - `pronounce` (Phát âm): Phiên âm IPA chuẩn.
-   - `word_type` (Loại từ): Từ loại tiếng Anh (e.g. "verb phrase", "noun phrase", "phrasal verb", "phrase",...).
-   - `example` (Ví dụ): 1 câu ví dụ tiếng Anh ngữ cảnh chuẩn IELTS.
-   - `synonyms` (Từ đồng nghĩa): Mảng các chuỗi (Array of strings) chứa các từ/cụm từ đồng nghĩa BẰNG TIẾNG ANH (chỉ tối đa 2 từ synonyms) (e.g. `["basic food", "dietary staple"]`). KHÔNG DÙNG TIẾNG VIỆT Ở ĐÂY.
+   - `term` (Thuật ngữ): Từ/cụm từ tiếng Anh gốc (giữ nguyên không đổi).
+   - `definition` (Định nghĩa): Định nghĩa tiếng Anh ngắn gọn, dễ hiểu kèm nghĩa tiếng Việt tự nhiên trong ngoặc: `<Định nghĩa tiếng Anh súc tích>. (<Nghĩa tiếng Việt tự nhiên, thoát ý>)`.
+   - `pronounce` (Phát âm): Phiên âm IPA chuẩn quốc tế.
+   - `word_type` (Loại từ): Từ loại tiếng Anh (e.g. "verb phrase", "noun phrase", "phrasal verb", "phrase", "idiom",...).
+   - `example` (Ví dụ): 1 câu ví dụ tiếng Anh tự nhiên, sinh động, chuẩn ngữ pháp, gắn với ngữ cảnh đời sống/học tập/công việc thực tế  , ko áp dúng quá nhiều từ vựng chuyên ngành , ví dụ đơn giản dễ  hiểu có liên quan đến thuật ngữ .
+   - `synonyms` (Từ đồng nghĩa): Mảng các chuỗi (Array of strings) chứa 1-2 từ/cụm từ đồng nghĩa phổ biến BẰNG TIẾNG ANH (e.g. `["maintain health", "keep fit"]`). KHÔNG DÙNG TIẾNG VIỆT Ở ĐÂY.
 
 VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
 {
@@ -16,85 +16,47 @@ VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
   "words": [
     {
       "term": "staple food",
-      "definition": "A food that is eaten routinely and constitutes a dominant portion of a standard diet (Thực phẩm chính).",
+      "definition": "A food that makes up the main part of a person's regular diet (Lương thực chính, thực phẩm thiết yếu hàng ngày).",
       "pronounce": "/ˈsteɪpl fuːd/",
       "word_type": "noun phrase",
       "example": "Rice is the primary staple food for more than half of the world's population.",
       "synonyms": ["basic food", "dietary staple"]
     },
-    {
-      "term": "stay healthier",
-      "definition": "To maintain better physical condition and well-being (Giữ sức khỏe tốt hơn).",
-      "pronounce": "/steɪ ˈhelθiər/",
-      "word_type": "verb phrase",
-      "example": "Eating a balanced diet helps you stay healthier throughout the year.",
-      "synonyms": ["maintain health", "keep fit"]
-    }
   ]
 }
 
-QUY TẮC :
-- Passage mới = Tăng DAY +1 trong tiêu đề "title".
-- Làm đúng và đủ các từ trong danh sách 
-- Thuật ngữ phải theo đúng trong danh sách, không được thay đổi ( trước dấu 2 chấm).
-- Ví dụ phải là câu tiếng Anh chuẩn, có ngữ cảnh rõ ràng với thuật ngữ, phù hợp với IELTS Reading.
+TIÊU CHÍ CHẤT LƯỢNG NỘI DUNG:
+- **Tiêu đề**: Passage mới = Tăng DAY +1 trong "title" (e.g. "DAY 02 – TEST 1").
+- **Đầy đủ**: Làm đúng và đủ tất cả các từ trong danh sách được cung cấp.
+- **Thuật ngữ**: Giữ đúng từ/cụm từ gốc (phần trước dấu 2 chấm).
+- **Văn phong**: Giải thích và ví dụ phải dễ hiểu, trực quan cho người học mọi độ tuổi, tránh dịch máy thô cứng.
 ---
 
-public good : lợi ích công cộng (a benefit shared by society as a whole)
-
-degraded land : đất bị suy thoái (land that has lost its fertility due to human activity or environmental factors)
 
 
-livelihood : sinh kế (the means by which someone earns income or meets basic needs)
 
-erosion : xói mòn (the gradual wearing away of soil by wind or water)
+drill : khoan, máy khoan (to make a hole; or a tool used for drilling)
 
-salinisation : nhiễm mặn (the build-up of salts in soil, reducing its fertility)
+don't worry just yet : đừng lo lắng vội (no need to worry for now)
 
-rangelands : đất chăn nuôi (large areas of land used for grazing livestock)
+extra earwax : ráy tai thừa (too much wax built up in the ear)
 
-communal : thuộc cộng đồng/tập thể (owned or shared by all members of a community)
+be doomed : tiêu đời rồi, chắc chắn thất bại (bound to fail or be destroyed)
 
-state property : tài sản nhà nước (land or resources owned and managed by the government)
+online trolling : sự quấy rối trực tuyến (deliberately provoking people online)
 
-spill over : lan rộng/tràn sang
+munching on the go : vừa đi vừa ăn vặt (eating snacks while on the move)
 
-resilience : khả năng phục hồi (the ability to recover from disturbances or adapt to changes)
+antioxidants : chất chống oxy hóa (substances that protect cells from damage)
 
-tillage : cày xới (the preparation of soil by plowing and turning it for planting)
+pushback : sự phản đối, sự chống lại (resistance or opposition to a plan or idea)
 
-cover cropping : trồng cây che phủ (planting crops to protect soil from erosion and maintain moisture)
+geeky : mọt sách, cuồng công nghệ (nerdy or obsessed with tech/niche topics)
 
-water retention : khả năng giữ nước (the ability of soil to hold water for plant growth)
+sedentary lifestyle : lối sống ít vận động (an inactive lifestyle with little physical exercise)
 
-uncertain yield : sản lượng không ổn định (variability in agricultural output due to weather, pests, or soil quality)
+mood disorders : rối loạn tâm trạng (mental conditions that affect emotional state)
 
-stewardship : sự quản lý (the responsible care of natural resources for future generations)
+steeped in something : đắm chìm trong cái gì đó (deeply immersed in something)
 
-commodity price : giá hàng hóa (the market value of a product, which can fluctuate with supply and demand)
-
-overgrazing : chăn thả quá mức (excessive grazing that leads to soil degradation and loss of vegetation)
-
-pastoralist : người chăn nuôi (a person who raises livestock, often in rangeland environments)
-
-hidden liability : trách nhiệm tiềm ẩn (potential future costs arising from current actions or damage)
-
-spike : tăng vọt (a sudden sharp increase)
-
-caution : thận trọng (being careful and avoiding unnecessary risks)
-
-broader shift : sự thay đổi rộng hơn (a significant change in societal, economic, or environmental conditions)
-
-broaden responsibility to something : mở rộng trách nhiệm đối với (to expand the scope of accountability to include more aspects)
-
-lender : người cho vay (a person or institution that provides loans, expecting repayment with interest)
-
-individual virtue : đức tính cá nhân (the moral qualities and ethical behaviour of an individual)
-
-uniformity : sự đồng nhất (the quality of being consistent or similar across different contexts)
-
-farmland : đất nông nghiệp (land used for farming and agricultural production)
-
-reckless : liều lĩnh (acting without consideration of the risks or consequences)
-
-civilisation : nền văn minh (the complex society and culture developed by humans)
+sarcastic : mỉa mai, châm biếm (using irony to mock or convey contempt)
