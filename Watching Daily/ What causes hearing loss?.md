@@ -18,7 +18,7 @@ hair cells : tế bào lông thính giác (sensory cells in the ear that detect 
 
 wear and tear on something : hao mòn do sử dụng lâu ngày (damage resulting from ordinary use over time)
 
-be on a downward spiral : tuột dốc không phanh (to continuously worsen or decline)
+be on a downward spiral : tụt dốc không phanh (to continuously worsen or decline)
 
 drill : khoan, máy khoan (to make a hole; or a tool used for drilling)
 
