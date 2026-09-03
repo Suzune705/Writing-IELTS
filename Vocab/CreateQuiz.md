@@ -32,31 +32,28 @@ TIÊU CHÍ CHẤT LƯỢNG NỘI DUNG:
 - **Văn phong**: Giải thích và ví dụ phải dễ hiểu, trực quan cho người học mọi độ tuổi, tránh dịch máy thô cứng.
 ---
 
+dementia: chứng sa sút trí tuệ (a group of symptoms affecting memory, thinking, and social abilities severely enough to interfere with daily life)
 
+turn to: tìm đến (to seek help, support, or advice from someone or something in times of need)
 
+crave: khao khát (to have a strong desire for something)
 
-drill : khoan, máy khoan (to make a hole; or a tool used for drilling)
+keep to oneself: sống khép kín (to avoid sharing personal thoughts or feelings with others; to be reserved or private)
 
-don't worry just yet : đừng lo lắng vội (no need to worry for now)
+bring someone together: gắn kết mọi người (to unite or connect people, fostering a sense of community or togetherness)
 
-extra earwax : ráy tai thừa (too much wax built up in the ear)
+the spark for something: nguồn cảm hứng cho cái gì đó (the initial inspiration or motivation that leads to the development of an idea, project, or action)
 
-be doomed : tiêu đời rồi, chắc chắn thất bại (bound to fail or be destroyed)
+disposable income: thu nhập khả dụng (the amount of money left after taxes have been deducted, available for spending or saving)
 
-online trolling : sự quấy rối trực tuyến (deliberately provoking people online)
+raven: con quạ (a large, black bird known for its intelligence and adaptability)
 
-munching on the go : vừa đi vừa ăn vặt (eating snacks while on the move)
+trustfulness: sự tin cậy (the quality of being loyal and faithful to someone or something)
 
-antioxidants : chất chống oxy hóa (substances that protect cells from damage)
+steadfastness: sự kiên định (the quality of being firm and unwavering in one's beliefs or actions)
 
-pushback : sự phản đối, sự chống lại (resistance or opposition to a plan or idea)
+fit the bill: phù hợp (to be suitable or appropriate for a particular purpose or situation)
 
-geeky : mọt sách, cuồng công nghệ (nerdy or obsessed with tech/niche topics)
+see right across something: nhìn bao quát toàn bộ (to be able to see clearly all the way across an area; to have an unobstructed view)
 
-sedentary lifestyle : lối sống ít vận động (an inactive lifestyle with little physical exercise)
-
-mood disorders : rối loạn tâm trạng (mental conditions that affect emotional state)
-
-steeped in something : đắm chìm trong cái gì đó (deeply immersed in something)
-
-sarcastic : mỉa mai, châm biếm (using irony to mock or convey contempt)
+exclusive access to something: quyền sử dụng độc quyền (the ability to enter or use a place, service, or resource that is not available to the general public)
