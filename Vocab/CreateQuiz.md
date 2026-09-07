@@ -4,7 +4,7 @@ QUY TẮC ĐỊNH DẠNG (BẮT BUỘC):
 1. ĐẦU RA: Chỉ xuất ra DUY NHẤT 1 block JSON hợp lệ (Valid JSON). TUYỆT ĐỐI KHÔNG thêm văn bản giải thích ngoài JSON.
 2. CÁC TRƯỜNG TRONG JSON KHỚP 100% VỚI FLASHCARD UI:
    - `term` (Thuật ngữ): Từ/cụm từ tiếng Anh gốc (giữ nguyên không đổi).
-   - `definition` (Định nghĩa): Định nghĩa tiếng Anh ngắn gọn, dễ hiểu kèm nghĩa tiếng Việt tự nhiên trong ngoặc: `<Định nghĩa tiếng Anh súc tích>. (<Nghĩa tiếng Việt tự nhiên, thoát ý>)`.
+   - `definition` (Định nghĩa): Định nghĩa tiếng Anh ngắn gọn, dễ hiểu kèm nghĩa tiếng Việt theo note trong ngoặc: `<Định nghĩa tiếng Anh súc tích>. (<Nghĩa tiếng Việt theo note >)`.
    - `pronounce` (Phát âm): Phiên âm IPA chuẩn quốc tế.
    - `word_type` (Loại từ): Từ loại tiếng Anh (e.g. "verb phrase", "noun phrase", "phrasal verb", "phrase", "idiom",...).
    - `example` (Ví dụ): 1 câu ví dụ tiếng Anh tự nhiên, sinh động, chuẩn ngữ pháp, gắn với ngữ cảnh đời sống/học tập/công việc thực tế  , ko áp dúng quá nhiều từ vựng chuyên ngành , ví dụ đơn giản dễ  hiểu có liên quan đến thuật ngữ .
@@ -12,7 +12,7 @@ QUY TẮC ĐỊNH DẠNG (BẮT BUỘC):
 
 VÍ DỤ MẪU JSON CHUẨN FLASHCARD:
 {
-  "title": "DAY 01 – TEST 1",
+  "title": "IELTS Vocabulary Flashcards",
   "words": [
     {
       "term": "staple food",
@@ -32,28 +32,30 @@ TIÊU CHÍ CHẤT LƯỢNG NỘI DUNG:
 - **Văn phong**: Giải thích và ví dụ phải dễ hiểu, trực quan cho người học mọi độ tuổi, tránh dịch máy thô cứng.
 ---
 
-dementia: chứng sa sút trí tuệ (a group of symptoms affecting memory, thinking, and social abilities severely enough to interfere with daily life)
+topic: Climate
 
-turn to: tìm đến (to seek help, support, or advice from someone or something in times of need)
+cyclone: lốc xoáy (a large-scale air mass that rotates around a strong center of low atmospheric pressure)
+`
+move across: di chuyển qua(to travel from one side to another)
 
-crave: khao khát (to have a strong desire for something)
+likelihood of something: khả năng xảy ra của cái gì (the probability or chance of something happening)
 
-keep to oneself: sống khép kín (to avoid sharing personal thoughts or feelings with others; to be reserved or private)
+mudslide: lũ bùn, sạt lở bùn đất (a mass of mud and earth that moves down a slope, often caused by heavy rain)
 
-bring someone together: gắn kết mọi người (to unite or connect people, fostering a sense of community or togetherness)
+storm surge: nước dâng do bão (a rise in sea level caused by a storm, often leading to coastal flooding)
 
-the spark for something: nguồn cảm hứng cho cái gì đó (the initial inspiration or motivation that leads to the development of an idea, project, or action)
+get swept somewhere: bị cuốn trôi/thổi bay đến đâu (to be carried away by a current or force, often water or wind)
 
-disposable income: thu nhập khả dụng (the amount of money left after taxes have been deducted, available for spending or saving)
+casualty: người thương vong, sự thương vong (a person injured or killed in an accident or disaster)
 
-raven: con quạ (a large, black bird known for its intelligence and adaptability)
+come onto land: đổ bộ vào đất liền (to reach the shore or land from the sea)
 
-trustfulness: sự tin cậy (the quality of being loyal and faithful to someone or something)
+drown: chết đuối (to die by being submerged in water)
 
-steadfastness: sự kiên định (the quality of being firm and unwavering in one's beliefs or actions)
+flaw: khuyết điểm, thiếu sót (a defect or weakness in something)
 
-fit the bill: phù hợp (to be suitable or appropriate for a particular purpose or situation)
+toughen up: trở nên cứng cỏi, mạnh mẽ lên (to become stronger or more resilient in the face of challenges)
 
-see right across something: nhìn bao quát toàn bộ (to be able to see clearly all the way across an area; to have an unobstructed view)
+take something personally: để bụng, tự ái, phật ý (to feel offended or upset by something that was said or done)
 
-exclusive access to something: quyền sử dụng độc quyền (the ability to enter or use a place, service, or resource that is not available to the general public)
+
