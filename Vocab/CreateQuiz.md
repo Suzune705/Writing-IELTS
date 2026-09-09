@@ -34,28 +34,68 @@ TIÊU CHÍ CHẤT LƯỢNG NỘI DUNG:
 
 topic: Climate
 
-cyclone: lốc xoáy (a large-scale air mass that rotates around a strong center of low atmospheric pressure)
-`
-move across: di chuyển qua(to travel from one side to another)
 
-likelihood of something: khả năng xảy ra của cái gì (the probability or chance of something happening)
 
-mudslide: lũ bùn, sạt lở bùn đất (a mass of mud and earth that moves down a slope, often caused by heavy rain)
+carnivorous plant: cây ăn thịt (a plant that derives some or most of its nutrients from trapping and consuming animals or protozoans, typically insects and other arthropods)
 
-storm surge: nước dâng do bão (a rise in sea level caused by a storm, often leading to coastal flooding)
+tentacle: xúc tu (a flexible, elongated organ found in some animals and plants, used for grasping, feeding, or sensing)
 
-get swept somewhere: bị cuốn trôi/thổi bay đến đâu (to be carried away by a current or force, often water or wind)
+bring about a response: gây ra phản ứng (to cause a reaction or response in someone or something)
 
-casualty: người thương vong, sự thương vong (a person injured or killed in an accident or disaster)
+false alarm: báo động giả (a warning or signal that is not based on a real threat or danger)
 
-come onto land: đổ bộ vào đất liền (to reach the shore or land from the sea)
+snap shut: đóng sập lại (to close quickly and forcefully, often with a sharp sound)
 
-drown: chết đuối (to die by being submerged in water)
+secrete: tiết ra (to produce and release a substance, such as a liquid or hormone, from a gland or cell)
 
-flaw: khuyết điểm, thiếu sót (a defect or weakness in something)
+spine: gai (a sharp, pointed structure on a plant or animal, often used for defense or support)
 
-toughen up: trở nên cứng cỏi, mạnh mẽ lên (to become stronger or more resilient in the face of challenges)
+save someone something: giúp ai đó tiết kiệm cái gì (to prevent someone from having to spend or use something, often money or time)
 
-take something personally: để bụng, tự ái, phật ý (to feel offended or upset by something that was said or done)
+electric charge: điện tích (a property of matter that causes it to experience a force when placed in an electromagnetic field)
+
+stimulate: kích thích (to encourage or provoke a response or activity in someone or something)
+
+travel down: đi xuống, truyền xuống (to move from a higher position to a lower one, often in a controlled or directed manner)
+
+pore: lỗ chân lông (a small opening in the surface of the skin or a plant/cell, through which substances can pass)
+
+membrane: màng tế bào, màng bao (a thin layer of tissue or material that covers or separates different parts of an organism or structure)
+
+flip in shape from: lật từ hình dạng này sang hình dạng khác (to change or transform from one form or shape to another, often quickly or suddenly)
+
+convex: lồi (curved or rounded outward, like the exterior of a sphere or circle)
+
+concave: lõm (curved or rounded inward, like the interior of a bowl or circle)
+
+contact lens: kính áp tròng (a thin lens placed directly on the surface of the eye to correct vision or for cosmetic purposes)
+
+air sac: túi khí (a small pocket of air, often used for cushioning or insulation)
+
+bladder: bàng quang; túi bẫy (a hollow sac/organ in an organism used to hold air, fluid, or trap prey)
+
+flea: bọ chét (a small, wingless insect that feeds on the blood of mammals and birds)
+
+flap: van đậy, nắp gập (a movable part of a structure that covers or protects an opening, often used for ventilation or access)
+
+spring apart: bật bung ra (to separate or move apart suddenly, often with force or energy)
+
+suck something in: hút cái gì vào (to draw or pull something inward, often using suction or pressure)
+
+swing shut: đóng sập lại (to close quickly and forcefully, often with a swinging motion)
+
+sticky: dính (having the property of adhering or clinging to a surface, often due to a substance or texture)
+
+make somebody [noun]: khiến ai đó trở thành... (to cause someone to become a particular type of person or to take on a specific role or identity)
+
+do a great job of something: làm tốt việc gì (to perform a task or duty very well, often exceeding expectations)
+
+swamp / bog: đầm lầy (a wetland area that is saturated with water, often characterized by the presence of trees, shrubs, or peat moss)
+
+outcompete: vượt trội hơn (to surpass or do better than someone or something in a competitive situation)
+
+suppression: sự kìm hãm, ngăn chặn (the act of preventing or restraining something from happening or being expressed)
+
+
 
 
